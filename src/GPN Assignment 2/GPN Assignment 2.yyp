@@ -47,7 +47,6 @@
   "resources": [
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
     {"id":{"name":"spr_player_idle_up","path":"sprites/spr_player_idle_up/spr_player_idle_up.yy",},},
-    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
     {"id":{"name":"spr_player_idle_right","path":"sprites/spr_player_idle_right/spr_player_idle_right.yy",},},
     {"id":{"name":"spr_player_idle_down","path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",},},
     {"id":{"name":"spr_plains","path":"sprites/spr_plains/spr_plains.yy",},},
