@@ -23,6 +23,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_player_right","order":2,"path":"sprites/spr_player_right/spr_player_right.yy",},
     {"name":"spr_player_idle_up","order":3,"path":"sprites/spr_player_idle_up/spr_player_idle_up.yy",},
+    {"name":"TileSet3","order":1,"path":"tilesets/TileSet3/TileSet3.yy",},
     {"name":"spr_player_idle_right","order":2,"path":"sprites/spr_player_idle_right/spr_player_idle_right.yy",},
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
     {"name":"spr_player_up","order":3,"path":"sprites/spr_player_up/spr_player_up.yy",},
@@ -31,6 +32,5 @@
     {"name":"spr_player_idle_left","order":1,"path":"sprites/spr_player_idle_left/spr_player_idle_left.yy",},
     {"name":"obj_wall","order":3,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"spr_noticed","order":1,"path":"sprites/spr_noticed/spr_noticed.yy",},
-    {"name":"spr_grass","order":1,"path":"sprites/spr_grass/spr_grass.yy",},
   ],
 }
