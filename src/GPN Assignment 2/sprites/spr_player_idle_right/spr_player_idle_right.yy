@@ -28,7 +28,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"84aa1538-d3bb-4533-8eb2-a3bb4a9fc77c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "spr_player_idle",
     "path": "folders/Sprites/spr_player_idle.yy",
@@ -70,7 +70,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 16,
-    "yorigin": 16,
+    "yorigin": 21,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

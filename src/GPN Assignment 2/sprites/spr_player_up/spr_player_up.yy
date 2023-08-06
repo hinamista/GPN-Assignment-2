@@ -28,7 +28,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"73cb469e-59a9-4980-8ca2-08cb38dbc9a8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "spr_player_move",
     "path": "folders/Sprites/spr_player_move.yy",
@@ -70,7 +70,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 16,
-    "yorigin": 16,
+    "yorigin": 21,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
