@@ -53,3 +53,13 @@ if xspd == 0 && yspd == 0
 	{
 		image_index = 0;
 	}
+	
+//states
+/*
+switch (player_states)
+{
+	case "slash":
+		#region Slash State
+		break;
+}
+*/
