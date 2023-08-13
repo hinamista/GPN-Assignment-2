@@ -11,20 +11,20 @@ for(var rays = 0; rays <= rays_count; rays ++) {
 		var yy = y + lengthdir_y(line_length, dir);
 			
 		if(position_empty(xx, yy) == false) {
-			if (instance_place(xx, yy, obj_wall) != noone) {
+			if (instance_place(xx, yy, oWall) != noone) {
 						
-				if (instance_place(xx, yy, obj_player) != noone) {
+				if (instance_place(xx, yy, oPlayer) != noone) {
 					foundPlayer = true;
-					target = instance_place(xx, yy, obj_player);
+					target = instance_place(xx, yy, oPlayer);
 					break;
 				}
 				
 				break;	
 			}
 				
-			if (instance_place(xx, yy, obj_player) != noone) {
+			if (instance_place(xx, yy, oPlayer) != noone) {
 				foundPlayer = true;
-				target = instance_place(xx, yy, obj_player);
+				target = instance_place(xx, yy, oPlayer);
 				break;
 			}
 		}

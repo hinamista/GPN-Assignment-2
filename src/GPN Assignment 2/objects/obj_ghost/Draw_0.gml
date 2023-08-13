@@ -12,11 +12,11 @@ if(is_debug) {
 			var yy = y + lengthdir_y(line_length, dir);
 			
 			if(position_empty(xx, yy) == false) {
-				if (instance_place(xx, yy, obj_wall) != noone) {
+				if (instance_place(xx, yy, oWall) != noone) {
 					draw_set_color(c_red);
 					draw_circle(xx, yy, 1, false);
 						
-					if (instance_place(xx, yy, obj_player) != noone) {
+					if (instance_place(xx, yy, oPlayer) != noone) {
 						draw_set_color(c_red);
 						draw_circle(xx, yy, 1, false);
 						foundPlayer = true;
@@ -25,7 +25,7 @@ if(is_debug) {
 					
 				}
 				
-				if (instance_place(xx, yy, obj_player) != noone) {
+				if (instance_place(xx, yy, oPlayer) != noone) {
 					draw_set_color(c_red);
 					draw_circle(xx, yy, 1, false);
 					foundPlayer = true;
