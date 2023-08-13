@@ -17,8 +17,15 @@ function PlayerStateFree()
 
 	//Update Image Index
 	PlayerAnimateSprite();
+	
+	//Attack key logic
+	if (keyAttack)
+	{
+		state = PlayerStateAttack;
+		stateAttack = AttackSlash;
+	}
 
-	//Change State
+	//Sprint key logic
 	if (keySprint)
 	{
 		state = PlayerStateSprint;
@@ -33,23 +40,23 @@ function PlayerStateFree()
 		activate = instance_position(x+_activateX, y+_activateY, pEntity);
 	}
 	
-	if (activate == noone || activate.entityActivateScript == -1)
-	{
-		state = PlayerStateFree;
-	}
-	else
-	{
-		//Activate the entity
-		ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
+	//if (activate == noone || activate.entityActivateScript == -1)
+	//{
+	//	state = PlayerStateFree;
+	//}
+	//else
+	//{
+	//	//Activate the entity
+	//	ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);
 		
-		//Make an NPC face the player
-		if (activate.entityNPC)
-		{
-			with (activate)
-			{
-				direction = point_direction(x,y,other.x,other.y);
-				image_index = CARDINAL_DIR;
-			}
-		}
-	}
+	//	//Make an NPC face the player
+	//	if (activate.entityNPC)
+	//	{
+	//		with (activate)
+	//		{
+	//			direction = point_direction(x,y,other.x,other.y);
+	//			image_index = CARDINAL_DIR;
+	//		}
+	//	}
+	//}
 }

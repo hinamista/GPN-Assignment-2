@@ -4,7 +4,9 @@
   "name": "oCat",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityNPC","path":"objects/pEntity/pEntity.yy",},"value":"True",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
