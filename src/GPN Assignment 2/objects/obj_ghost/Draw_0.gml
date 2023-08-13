@@ -3,7 +3,7 @@ draw_self();
 if(is_debug) {
 	var add_angle = 3;
 	var angle_dir = 1;
-	var dir = image_angle + 280;
+	var dir = searchAngle;
 	foundPlayer = false;
 	
 	for(var rays = 0; rays <= rays_count; rays ++) {

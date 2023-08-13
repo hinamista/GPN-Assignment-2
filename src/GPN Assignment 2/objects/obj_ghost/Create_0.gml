@@ -1,6 +1,8 @@
-xspd = 0;
-yspd = 0;
-foundPlayer = false;
+randomize();
 
-movespd = 0.5;
-face = DOWN;
+searchAngle = 360;
+next_time = room_speed * random_range(1,4);
+
+alarm_set(0, next_time);
+foundPlayer = false;
+target = noone;
