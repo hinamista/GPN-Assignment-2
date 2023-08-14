@@ -1,0 +1,3 @@
+LoadGame(global.gameSaveSlot);
+
+

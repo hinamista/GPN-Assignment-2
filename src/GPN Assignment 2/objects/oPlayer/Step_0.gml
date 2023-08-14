@@ -9,7 +9,17 @@ keyActivate = keyboard_check_pressed(ord("E"))
 inputDirection = point_direction(0, 0, keyRight - keyLeft, keyDown - keyUp);
 inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
 
-if (!global.gamePaused) script_execute(state);
+if (!global.gamePaused)
+{
+	script_execute(state);
+	invulnerable = max(invulnerable-1,0);
+	flash = max(flash-0.05,0);
+}
+
+if talkTimer > 0
+{
+	talkTimer--;
+}
 
 depth = -bbox_bottom;
 

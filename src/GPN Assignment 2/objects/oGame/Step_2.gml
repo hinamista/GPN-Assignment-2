@@ -1,5 +1,5 @@
 /// @description Game Pause
-if (keyboard_check_pressed(vk_escape))
+if (keyboard_check_pressed(vk_escape)) && (oUI.visible = true)
 {
 	global.gamePaused = !global.gamePaused;
 	

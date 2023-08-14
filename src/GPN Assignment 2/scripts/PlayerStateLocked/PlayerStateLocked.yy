@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "PlayerStateMachines",
-    "path": "folders/Scripts/PlayerStateMachines.yy",
+    "name": "Player States",
+    "path": "folders/Scripts/Player States.yy",
   },
 }
